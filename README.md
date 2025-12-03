@@ -1,10 +1,16 @@
 # Cosmic Gossip 🛸💬
 
+![Cosmic Gossip Banner](assets/banner.png)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/the3y3-code/cosmic-gossip)](https://github.com/the3y3-code/cosmic-gossip/issues)
+[![GitHub stars](https://img.shields.io/github/stars/the3y3-code/cosmic-gossip)](https://github.com/the3y3-code/cosmic-gossip/stargazers)
+
 **Cosmic Gossip** is a twist on the classic Space Invaders. Instead of just mindlessly attacking, these aliens have lives, opinions, and a lot to say!
 
 Powered by the **Google Gemini API**, they banter about everything from intergalactic rent prices to today's weirdest Earth news. Watch them gossip, argue, and even beg for mercy as you blast them away.
 
-## Features
+## ✨ Features
 
 *   👾 **Dynamic Alien Banter:** Aliens chat with each other in real-time using AI.
 *   📰 **News-Aware:** They react to real-world current events (when connected).
@@ -12,7 +18,7 @@ Powered by the **Google Gemini API**, they banter about everything from intergal
 *   🎹 **Retro Vibes:** Custom pixel art and synthesized Web Audio sound effects.
 *   🔌 **Offline Mode:** Playable without an API key using a massive cache of jokes.
 
-## How to Play
+## 🚀 How to Play
 
 1.  **Start the Game:** Open `index.html` in your browser.
 2.  **API Key (Optional):** Enter your Google Gemini API key for fresh, dynamic banter.
@@ -22,13 +28,29 @@ Powered by the **Google Gemini API**, they banter about everything from intergal
     *   **Space / Enter:** Shoot
 5.  **Objective:** Destroy all aliens before they reach the bottom!
 
-## Technologies
+## 🛠️ Technologies
 
 *   HTML5 Canvas
 *   Vanilla JavaScript (ES6+)
 *   Web Audio API
 *   Google Gemini API
 
-## License
+## 🤝 Contributing
 
-MIT
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 👤 Author
+
+**the3y3-code**
+
+*   GitHub: [@the3y3-code](https://github.com/the3y3-code)
