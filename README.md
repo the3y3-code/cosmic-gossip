@@ -2,9 +2,11 @@
 
 ![Cosmic Gossip Banner](assets/banner.png)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub issues](https://img.shields.io/github/issues/the3y3-code/cosmic-gossip)](https://github.com/the3y3-code/cosmic-gossip/issues)
-[![GitHub stars](https://img.shields.io/github/stars/the3y3-code/cosmic-gossip)](https://github.com/the3y3-code/cosmic-gossip/stargazers)
+[![JavaScript](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Gemini API](https://img.shields.io/badge/AI-Gemini%20API-blue.svg)](https://ai.google.dev/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
+[![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)](CONTRIBUTING.md)
 
 **Cosmic Gossip** is a twist on the classic Space Invaders. Instead of just mindlessly attacking, these aliens have lives, opinions, and a lot to say!
 
