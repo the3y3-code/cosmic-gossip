@@ -1,0 +1,121 @@
+:root {
+    --primary-color: #00ffcc;
+    --secondary-color: #ff00ff;
+    --bg-color: #050510;
+    --text-color: #ffffff;
+    --font-main: 'Courier New', Courier, monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+    border: 2px solid var(--primary-color);
+    background: radial-gradient(circle at center, #1a1a2e 0%, #000000 100%);
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#ui-layer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-shadow: 0 0 5px var(--primary-color);
+    pointer-events: none;
+    z-index: 10;
+}
+
+#message-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    transition: opacity 0.3s;
+}
+
+#message-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#message-title {
+    font-size: 48px;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px var(--secondary-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#message-text {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #ccc;
+    text-align: center;
+    max-width: 80%;
+}
+
+#api-key-container {
+    margin-bottom: 20px;
+}
+
+#api-key-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    background: #222;
+    border: 1px solid var(--primary-color);
+    color: white;
+    font-family: var(--font-main);
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 24px;
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    font-family: var(--font-main);
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background: var(--primary-color);
+    color: black;
+    box-shadow: 0 0 15px var(--primary-color);
+}

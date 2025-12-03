@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic LLM Invaders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <div id="ui-layer">
+            <div id="score-board">Score: <span id="score">0</span></div>
+            <div id="lives-board">Lives: <span id="lives">3</span></div>
+            <div id="level-info">Level: <span id="level">1</span></div>
+        </div>
+
+        <div id="message-overlay">
+            <h1 id="message-title">GALACTIC INVADERS</h1>
+            <p id="message-text">Press Start to Begin</p>
+            <div id="api-key-container">
+                <input type="password" id="api-key-input" placeholder="Enter Gemini API Key">
+            </div>
+            <button id="start-btn">START MISSION</button>
+            <button id="offline-btn" style="margin-top: 10px; font-size: 18px; padding: 10px 30px;">PLAY
+                OFFLINE</button>
+        </div>
+
+        <canvas id="game-canvas"></canvas>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
